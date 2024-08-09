@@ -829,7 +829,7 @@ class TestExcel(unittest.TestCase):
         if differences_found:
             self.fail("\n".join(differences_found))
 
-    def test_UNM(self):
+    def test_COH(self):
         original_file_path = "C:\\Python tools\\Unit-Test-MSP\\Original Files\\10225354 - COH - Santa Barbara Cottage Hospital.xlsx"
         new_file_path = "C:\\Python tools\\Unit-Test-MSP\\New files\\Cottage Health\\10225354 - Santa Barbara Cottage Hospital.xlsx"
 
